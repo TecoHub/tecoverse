@@ -1,0 +1,35 @@
+The objectif of this app is to help restaurants 
+
+all from customers own smartphone and without downloading any extra apps!
+
+-minimize work in taking orders
+-make serving process faster
+-possibility to pay without passing from the cashier
+-call staff 
+
+
+
+
+
+Functions 
+
+the restaurant manager can create an account in our web page, he can create dishes menu, drink menu, appetizers... etc 
+
+select number of qr codes he wants to print and a title and a description with table number. 
+
+then download the qr codes in form of pdf. 
+stick qr codes on each table.
+
+when customer scan qr code menu will open all along with the table number
+after customer finalizing his order and send it.
+
+or choose to call staff.
+
+restaurant manager will be notified with the new order.
+
+give restaurant manager access to change settings as what kind of message will pop up for customers after sending and order. (like waiting time)
+
+
+
+
+
