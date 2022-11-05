@@ -1,6 +1,18 @@
-The objectif of this app is to help restaurants 
 
-all from customers own smartphone and without downloading any extra apps!
+--------Description----------
+1- who can use this system.
+2- why do we need this system.
+3- program's structure.
+4- pro and cons.
+5- usage fee.
+6- legal services.
+6- future development.
+
+
+
+
+
+The objectif of this app is to help restaurants 
 
 -minimize work in taking orders
 -make serving process faster
@@ -8,7 +20,7 @@ all from customers own smartphone and without downloading any extra apps!
 -call staff 
 
 
-
+all those customers who own a smartphone and without downloading any extra apps!
 
 
 Functions 
@@ -27,7 +39,7 @@ or choose to call staff.
 
 restaurant manager will be notified with the new order.
 
-give restaurant manager access to change settings as what kind of message will pop up for customers after sending and order. (like waiting time)
+give the restaurant's manager access to change settings as what kind of message will pop up for customers after sending an order. (like waiting time)
 
 
 
