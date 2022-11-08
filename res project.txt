@@ -12,7 +12,7 @@
 
 
 
-The objectif of this app is to help restaurants 
+The objective of this app is to help restaurants 
 
 -minimize work in taking orders
 -make serving process faster
