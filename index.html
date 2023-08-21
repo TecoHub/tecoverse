@@ -101,7 +101,7 @@
                     </h5>
                   </div>
                   <p class="lead">
-                    We are a digital consultancy and an engineering freelancing team based in Japan that delivers modern & innovative solutions
+                    We are a digital consultancy and an engineering team based in Japan that delivers modern & innovative solutions
                     for global organizations and businesses from different sectors.
                   </p>
                   <p class="lead">
@@ -251,7 +251,7 @@
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 col-lg-4">
+        <!-- <div class="col-sm-4 col-lg-4">
           <div class="counter-box">
             <div class="counter-ico">
               <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
@@ -261,7 +261,7 @@
               <span class="counter-text">WORKS COMPLETED</span>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-sm-4 col-lg-4">
           <div class="counter-box pt-4 pt-md-0">
             <div class="counter-ico">
@@ -315,32 +315,73 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <!--RESTAURANT TOOL-->
-        <div class="col-md-4">
+        <div class="col-md-4" id="tool-1">
           <div class="work-box">
-            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+            <!-- Use a button to trigger the modal -->
+            <div class="work-img-btn" data-toggle="modal" data-target="#workModal">
               <div class="work-img">
                 <img src="img/work-1.jpg" alt="" class="img-fluid">
               </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Restaurant Order Pro</h2>
-                    <div class="w-more">
-                      <span class="w-date">Subscription:</span> <span class="w-ctegory">FREE (exclusive)</span>  
-                    </div>
+            </div>
+            <div class="work-content">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2 class="w-title">Restaurant Order Pro</h2>
+                  <div class="w-more">
+                    <span class="w-date">Subscription:</span> <span class="w-ctegory">FREE (exclusive)</span>  
                   </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                    <span class="ion-ios-plus-outline"></span>
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
+
+        <!-- Modal Template -->
+        <div class="modal fade" id="workModal" tabindex="-1" role="dialog" aria-labelledby="workModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered animated slideInRight" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="workModalLabel">News Article</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <!-- News Image -->
+                    <img src="news-image.jpg" alt="News Image" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <!-- News Title -->
+                    <h2 class="news-title">Revolutionizing Dining: The Self-Order App Redefining Food Service</h2>
+                    <!-- News Text -->
+                    <p class="news-text">
+                      In today's fast-paced world, convenience is key, and the food industry is no exception. At the intersection of technology and culinary delight, 
+                      our development team has been hard at work crafting a self-order app that's changing the way customers order and businesses operate in the food industry.
+                    </p>
+                    <!-- News Date and Time -->
+                    <p class="news-date-time">
+                      Published on August 18, 2023, at 10:00 AM
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -633,7 +674,6 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
 </body>
 </html>
 

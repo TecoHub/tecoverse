@@ -115,3 +115,11 @@
 	});
 
 })(jQuery);
+
+
+// index // JavaScript code to show the modal when the button is clicked
+$(document).ready(function() {
+	$('#tool-1').on('click', function() {
+		$('#workModal').modal('show');
+	});
+	});

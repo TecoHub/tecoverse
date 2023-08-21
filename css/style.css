@@ -1272,3 +1272,18 @@ footer .credits a {
   background-color: #b68d26;
   color: white;
 }
+
+
+/* To make model slide from right to center */
+/* Custom CSS for modal animation */
+.modal.right .modal-dialog {
+  position: fixed;
+  top: 0;
+  right: -320px; /* Initial position outside the viewport */
+  margin: 0;
+  width: 320px; /* Adjust the width as needed */
+  transition: right 0.3s ease; /* Smooth animation */
+}
+.modal.right.show .modal-dialog {
+  right: 0; /* Slide the modal in */
+}
