@@ -1287,3 +1287,7 @@ footer .credits a {
 .modal.right.show .modal-dialog {
   right: 0; /* Slide the modal in */
 }
+
+#tool-1 {
+  cursor: pointer;
+}

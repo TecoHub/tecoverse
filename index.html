@@ -318,10 +318,10 @@
 
       <div class="row">
         <!--RESTAURANT TOOL-->
-        <div class="col-md-4" id="tool-1">
+        <div class="col-md-4" id="tool-1" onclick="openLink1()">
           <div class="work-box">
             <!-- Use a button to trigger the modal -->
-            <div class="work-img-btn" data-toggle="modal" data-target="#workModal">
+            <div class="work-img-btn" >
               <div class="work-img">
                 <img src="img/work-1.jpg" alt="" class="img-fluid">
               </div>
@@ -344,43 +344,7 @@
           </div>
         </div>
 
-        <!-- Modal Template -->
-        <div class="modal fade" id="workModal" tabindex="-1" role="dialog" aria-labelledby="workModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg modal-dialog-centered animated slideInRight" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="workModalLabel">News Article</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-4">
-                    <!-- News Image -->
-                    <img src="news-image.jpg" alt="News Image" class="img-fluid">
-                  </div>
-                  <div class="col-md-8">
-                    <!-- News Title -->
-                    <h2 class="news-title">Revolutionizing Dining: The Self-Order App Redefining Food Service</h2>
-                    <!-- News Text -->
-                    <p class="news-text">
-                      In today's fast-paced world, convenience is key, and the food industry is no exception. At the intersection of technology and culinary delight, 
-                      our development team has been hard at work crafting a self-order app that's changing the way customers order and businesses operate in the food industry.
-                    </p>
-                    <!-- News Date and Time -->
-                    <p class="news-date-time">
-                      Published on August 18, 2023, at 10:00 AM
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+
 
       </div>
     </div>
@@ -409,7 +373,7 @@
             <!-- <div class="testimonial-box">
               <div class="author-test">
                 <img src="img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Marta Socrate </span>
+                <span class="author">JACK STROW</span>
               </div>
               <div class="content-test">
                 <p class="description lead">
@@ -441,11 +405,13 @@
           </div>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-md-4">
+        <!-----------------------------------------------NEWS 1--------------------------------------------->
+        <div class="col-md-4" id="tool-1" data-toggle="modal" data-target="#workModal-1">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
+              <a><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
@@ -453,7 +419,7 @@
                   <h6 class="category">November 08, 2022</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="blog-single.html">Restaurant order Pro (Project)</a></h3>
+              <h3 class="card-title"><a>Restaurant order Pro (Project)</a></h3>
               <p class="card-description">
                 Our team is in close contact with restaurant owners and take their needs into consideration  
                 so the restaurant order pro could contain all...
@@ -473,6 +439,47 @@
             </div>
           </div>
         </div>
+
+        <!-- Modal Template -->
+        <div class="modal fade" id="workModal-1" tabindex="-1" role="dialog" aria-labelledby="workModalLabel-1" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered animated slideInRight" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="workModalLabel-1">News Article</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <!-- News Image -->
+                    <img src="img/work-1.jpg" alt="News Image" class="img-fluid">
+                  </div>
+                  <div class="col-md-8">
+                    <!-- News Title -->
+                    <h2 class="news-title">Revolutionizing Dining: The Self-Order App Redefining Food Service</h2>
+                    <!-- News Text -->
+                    <p class="news-text">
+                      In today's fast-paced world, convenience is key, and the food industry is no exception. At the intersection of technology and culinary delight, 
+                      our development team has been hard at work crafting a self-order app that's changing the way customers order and businesses operate in the food industry.
+                    </p>
+                    <!-- News Date and Time -->
+                    <p class="news-date-time">
+                      Published on August 18, 2023, at 10:00 AM
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------END NEWS 1------------------------------------------->
+
+        <!-----------------------------------------------NEWS 2--------------------------------------------->
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
@@ -504,6 +511,9 @@
             </div>
           </div>
         </div>
+        <!---------------------------------------------END NEWS 2------------------------------------------->
+
+        <!-----------------------------------------------NEWS 3--------------------------------------------->
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
@@ -535,6 +545,7 @@
             </div>
           </div>
         </div>
+        <!---------------------------------------------END NEWS 3------------------------------------------->
       </div>
     </div>
   </section>

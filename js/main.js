@@ -118,8 +118,14 @@
 
 
 // index // JavaScript code to show the modal when the button is clicked
-$(document).ready(function() {
-	$('#tool-1').on('click', function() {
-		$('#workModal').modal('show');
-	});
-	});
+// $(document).ready(function() {
+// 	$('#tool-1').on('click', function() {
+// 		$('#workModal').modal('show');
+// 	});
+// 	});
+
+
+
+	function openLink1() {
+		window.location.href = "blog-single.html"; // Replace with your desired link
+	  }
