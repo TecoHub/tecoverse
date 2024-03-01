@@ -730,6 +730,52 @@ a:hover {
 }
 
 /*======================================
+---->   why choose us
+======================================*/
+
+.choose-box {
+  background-color: transparent;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  height: 100%; /* Adjusted to 100% to ensure full height */
+  display: flex;
+  flex-direction: column;
+}
+
+.choose-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #937017;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.choose-box .choose-ico {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.choose-box .ico-circle {
+  transition: all 500ms ease;
+  font-size: 4rem;
+}
+
+.choose-box .sch-title {
+  flex: 1; /* Use flex to stretch to full height */
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem 0;
+}
+
+.choose-box .sch-description {
+  color: #4e4e4e;
+  font-family: Arial, sans-serif;
+}
+
+
+
+/*======================================
 ---->   COUNTER
 ======================================*/
 
