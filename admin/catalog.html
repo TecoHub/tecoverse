@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Projects Catalog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2 class="mb-4">Web Design Projects Catalog</h2>
+    <div class="row mb-4">
+        <div class="col-md-12" style="margin-bottom: 10px;">
+            <select id="categorySelect" class="form-control" onchange="filterProjects()">
+                <option value="">Select category...</option>
+                <!-- Add your categories here -->
+                <option value="Modern">Modern</option>
+                <option value="authentic">Authentic</option>
+                <option value="category3">Category 3</option>
+            </select>
+        </div>
+        <div class="col-md-8">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search by project name...">
+        </div>
+
+        <div class="col-md-2">
+            <button class="btn btn-primary btn-block" onclick="searchProjects()">Search</button>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary btn-block" onclick="searchProjects()">Reset</button>
+        </div>
+    </div>
+
+    <ul class="list-group" id="projectsList">
+        <!-- Your project items will be dynamically added here -->
+    </ul>
+</div>
+
+<!-- Bootstrap JS and jQuery (optional, for Bootstrap functionality) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Sample project data (replace with your actual data)
+    const projects = [
+        { name: "Orange Modern", category: "Modern", directory: "Orange Modern" },
+        { name: "biographie authentic", category: "authentic", directory: "biographie authentic" },
+        { name: "dimension", category: "Modern", directory: "dimension" },
+        { name: "Project 4", category: "category3", directory: "project4" },
+    ];
+
+    // Function to display projects
+    function displayProjects(projects) {
+        const projectsList = document.getElementById("projectsList");
+        projectsList.innerHTML = "";
+        projects.forEach(project => {
+            const listItem = document.createElement("li");
+            listItem.classList.add("list-group-item");
+            const link = document.createElement("a");
+            link.textContent = project.name;
+            link.href = `projects/${project.directory}/index.html`;
+            link.target = "_blank"; // Open link in a new tab
+            listItem.appendChild(link);
+            projectsList.appendChild(listItem);
+        });
+    }
+
+    // Function to filter projects by category
+    function filterProjects() {
+        const category = document.getElementById("categorySelect").value;
+        if (category === "") {
+            displayProjects(projects);
+        } else {
+            const filteredProjects = projects.filter(project => project.category === category);
+            displayProjects(filteredProjects);
+        }
+    }
+
+    // Function to search projects by name
+    function searchProjects() {
+        const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+        const filteredProjects = projects.filter(project => project.name.toLowerCase().includes(searchTerm));
+        displayProjects(filteredProjects);
+    }
+
+    // Display all projects initially
+    displayProjects(projects);
+</script>
+
+</body>
+</html>

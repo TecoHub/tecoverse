@@ -1,0 +1,39 @@
+TERMS OF USE
+
+Please read these Terms of Use ("Terms") carefully before using our web application ("the Project"). These Terms constitute a legally binding agreement between you ("User") and Tecoverse ("Author") regarding your use of the Project.
+
+Ownership and Intellectual Property:
+The Author retains all rights, ownership, and intellectual property of the Project, including but not limited to its design, code, graphics, and documentation. No transfer of ownership or intellectual property rights to the User occurs by accessing or using the Project.
+
+Authorized Use:
+The Project is provided solely for authorized users. By accessing or using the Project, the User agrees to use it only for its intended purpose and in compliance with these Terms. Any unauthorized use or access to the Project is strictly prohibited.
+
+Modifications:
+The User shall not modify, alter, reverse engineer, decompile, or otherwise tamper with the Project's code or structure without obtaining explicit written permission from the Author. Any modification or customization of the Project requires prior authorization from the Author.
+
+Non-Transferability:
+The User agrees not to sell, transfer, sublicense, or assign any rights or access to the Project to any third party without the prior written consent of the Author. The Project is intended for the exclusive use of the User and shall not be distributed, resold, or made available to others without proper authorization.
+
+Copyright Notice:
+The User shall not remove, modify, or obscure any copyright notices or proprietary information displayed within the Project. All copyright and proprietary rights notices must be retained and preserved.
+
+Violation of Terms:
+Any violation of these Terms may result in the termination of the User's access to the Project, as well as potential legal consequences. The Author reserves the right to take appropriate action to protect their rights and interests.
+
+Disclaimer of Warranty:
+The Project is provided "as is" and without warranties of any kind, whether express or implied. The Author disclaims all warranties, including but not limited to the accuracy, reliability, suitability, or availability of the Project. The User assumes all risks associated with the use of the Project.
+
+Limitation of Liability:
+To the extent permitted by applicable law, the Author shall not be liable for any direct, indirect, incidental, consequential, or exemplary damages arising out of or in connection with the use of the Project. This includes, but is not limited to, any loss of data, revenue, or profits.
+
+Governing Law:
+These Terms shall be governed by and construed in accordance with the laws of [Jurisdiction]. Any dispute arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of [Jurisdiction].
+
+Contact Information:
+If you have any questions, concerns, or requests regarding these Terms or the Project, please contact Tecoverse at tecoverse.com
+
+By accessing or using the Project, the User acknowledges that they have read, understood, and agreed to be bound by these Terms of Use.
+
+Last updated: 2022/04
+
+Tecoverse

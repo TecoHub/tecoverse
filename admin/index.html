@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecoverse | Admin</title>
+    <style>
+
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* CSS which you need for blurred box */
+body{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(http://bit.ly/2gPLxZ4);
+ width: 100%;
+ height: 100%;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+ -webkit-font-smoothing: antialiased; 
+}
+
+.blurred-box{
+  position: relative;
+  width: 250px;
+  height: 350px;
+  top: calc(50% - 175px);
+  left: calc(50% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+
+/* Form which you dont need */
+.user-login-box{
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+  z-index: 1;
+}
+.user-login-box > *{
+  display: inline-block;
+  width: 200px;
+}
+
+.user-icon{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+  background-size: contain;
+  background-image: url(../img/me2.jpg);
+}
+
+.user-name{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+input.user-password{
+  width: 120px;
+  height: 18px;
+  opacity: 0.4;
+  border-radius: 2px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="blurred-box" id="login-box">
+    <!--  You don't need the user-login-box HTML for demo purposes only  -->
+    <!--  and it's irrelevant. -->
+    <div class="user-login-box">
+      <span class="user-icon"></span>
+      <div class="user-name">Tecoverse</div>
+      <input class="user-password" id="password-input" type="password" placeholder="Enter password" />
+  </div>
+</div>
+
+
+<script>
+    document.getElementById("password-input").addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            validatePassword();
+        }
+    });
+
+    function validatePassword() {
+        var password = document.getElementById("password-input").value;
+        // Add your password validation logic here
+        // For example, you can check if the password is correct
+        if (password === "1234") {
+            window.location.href = "catalog.html";
+        } else {
+            alert("Incorrect password. Please try again.");
+            // Clear the input field
+            document.getElementById("password-input").value = "";
+        }
+    }
+</script>
+    
+</body>
+</html>
